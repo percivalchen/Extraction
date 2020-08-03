@@ -1,0 +1,255 @@
+ body {
+	width: 300px; 
+	overflow:hidden;
+  background-color: #f4f4f4; /* This color is literally called "Cultured". Floralwhite was the old color */
+  border-radius: 8px;
+  font-family: 'Lato';
+  color: #585858;
+  padding:15px 0px 15px 0px;
+}
+
+h3 {
+  text-align: left;
+}
+
+.card-checklist {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 0px 0px 4.84px 0px;
+}
+
+/*.card-checklist:hover {
+  background-color: #FFC482 !important;
+  border-color: #FFC482;
+}*/
+
+/*button {
+     background:none!important;
+     color:inherit;
+     border:none; 
+     font-family: inherit;
+     padding: 0;
+     margin: 0;
+     cursor: pointer;
+}*/
+
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}*/
+
+textarea {
+  height:100px;
+  width:200px;
+}
+
+a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-style:solid;
+  border-width:2px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  border-radius:5px;
+  background-color: #E0E0E0;
+}
+
+a:hover{
+  background-color:#FFE2C2;
+  color: white;
+  cursor: pointer;
+}
+
+.a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-style:solid;
+  border-width:2px;
+  text-align:center;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+#helpButton {
+  background-color: initial;
+}
+
+.circle {
+  width:25px;
+  height: 25px;
+  border-radius:50%;
+  font-size:13px;
+  font-style: bold;
+  background-color: #E0E0E0;
+  line-height: 24px;
+  text-align: center;
+  line-align: center;
+  vertical-align: text-top;
+  /*float: right; Default is left.*/ 
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-family: 'Lato';
+  font-weight: 900;
+}
+
+.circle:hover {
+  background-color:#FFE2C2;
+}
+
+.tab-checklist{
+  display:flex;
+  justify-content: space-between;
+}
+
+.text-action{
+  width:220px;
+  font-size:18px;
+  overflow-wrap: break-word;
+  background-color:#E0E0E0;
+  font-weight:bold;
+}
+
+.text-action:hover{
+  background-color:#FFE2C2;
+}
+
+/*SPINNER START*/
+.loader {
+  column-fill: auto;
+  font-size: 10px;
+  margin: 0px auto;
+  text-indent: -9999em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #E0E0E0;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*SPINNER END*/
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+#logo {
+  width:150px;
+  height:75px; 
+  margin-bottom:10px; 
+  margin-left:auto; 
+  margin-right:auto; 
+  margin-top:-30px;
+  display:block;
+}
+
+#myTextArea {
+  width:100%;
+}
+
+.extractButton{
+  background-color: #E0E0E0; /* fffaf0 */
+  font-size:15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom:10px;
+}
+
+.extractButton:hover{
+  background-color:#FFE2C2;
+  color: white;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 0px 20px 10px 20px !important;
+}
+
+.extraButtons {
+  padding: 0px 5px 0px 15px;
+  background-color: inherit;
+  color:inherit;
+}
+
+.square {
+  padding: 11px 11px 11px 11px;
+  width: 44px;
+  height: 44px;
+}
+
+.extraction-dropdown-top-margin {
+  margin: 5px 0px 0px 0px;
+}
+
+.extraction-dropdown-button {
+  background-color:#EBEBEB;
+}
+.extraction-dropdown-button:hover {
+  background-color: #FFE2C2;
+}
+
+.extraButtons-body {
+  background-color: #E0E0E0;
+}
+
+.extraButtons-body:hover {
+  background-color: #FFE2C2;
+}

@@ -1,0 +1,22 @@
+ {
+  "manifest_version": 2,
+  "name": "ExtrAction",
+  "version": "0.7.5",
+  "permissions": [
+    "activeTab",
+    "identity", 
+    "https://us-central1-sigma-smile-251401.cloudfunctions.net/classifier2/*"
+  ],
+  "description": "The goal is to be able to extract tasks and summarize them.",
+  "content_security_policy": "script-src 'self' https://apis.google.com/js/api.js; object-src 'self'",
+  "icons": {"16": "img/Rainbow_Logo_square.png",
+            "48": "img/Rainbow_Logo_square.png",
+            "128": "img/Rainbow_Logo_square.png" },
+  "browser_action": {
+   "default_icon": "img/Rainbow_Logo_square.png",
+   "default_title": "Working model of the baseline extension",
+   "default_popup": "index.html"
+  },
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1nOiVZyUcppcE3hIUZ7Q1g5sQwRMYOO4DHyTM3IAoeL1pZhzV9b/VjRHGsqjG3gC9ktv9Y+/E9wqPzpiNDJX5pJ28zr62z00bggRmCsL+SFumaYHILUmPqS7wMkgydVWEuSkb7+Tvb+7Tsmv395X8wT0ofcRmeL7OkdWiNleeWIFhY2WBaYBPZ/1V1WJHrGDSHQKG3ntRow4T+BwBsWDafWQSY98eRfm4c+ga8ioh3PE4TrMCbuw8QzHxPTXy3t0Pi9SqijossMTpScq8reZF3AYcU5Mu6DzqhQcBFZ6XFR4mVDeWcWXAtQvxrz5n/wQAasS0yj6X0410bVU1YDOTAgMBAAECggEAEcpxLlGQXSIkoSFv+/e8u5FM23NOf4z0I/IlFLx1AYHybCTIpl0Qkcbj+ub9iZ2tzORaEJR9pHne2v+OCiM1feMWYKyQGjBsiUlPTP+44lgMQl0LjaSCFESqiHUkhWzhF8Nbt5TkhGAesTZFRWFHnB8B8rl/R9qENpAqsV1JcAVpQlZDDkjw+EKKF03ElxunfXDwm4AskmvJ28xeO6c+Y4b1CWP+C7+a7514s9OQO+8rR3PD6UuRh1rqhmeWmr016nNKx6ASXiPllcvTgZEdacolYTB+YcsdRLIf+7aGCwLmiBj9OJGY/dPGIK6EhqCyTRTuf3MMZTEgBM3YZqtxIQKBgQDe+EOxsUAGD0nIVjY512XTi5u9yWfGVwKkKrBPss7GvHtvVsoM/OTHZ+dibvw8WbQ9UJfCHKSDVm+Jsy4oQ1r8slNhl2WaAhmoaBLVl06SKV5/3oapiU9SLju+qWQlaPzg9vjRwTeq8F9xun4DPJm5kwRqsX4mLuiHhnVQk6ajrQKBgQDQhEIZZNFNisjHqpzt3dfp5vJF/6AsqUQ17iLfSbjkA/SJDi5/razaTQYMt8DP+aDWu0B07DEEIr0XrmxSVoVJK5E+KdaMx0o+F5GAp4A5/yjct76TGxcevZYioHxKEN5HRgZ9iVmRXcggVpagP3Gx33lZXBP0/awhmxz5cjMcPwKBgQCDigUtpDr4GDbX+HxfHULWTUtg6JvPN++39/Mx4XP5bKKJabMjfGJffV3VBVLLK8SYU55kBs/LJ8f/fXSijjH0WCO2tEFdXRXT8yoBVhUlR0CXwSjChd4Exn+6mGYbZ9efxDPAUvPLZal5B6Nlt2+dOi1l4DZiwlOt+FXnZmPttQKBgGL5pHZxSHhKHCvKbFrsJoS8PtvDDsCkR+BhfOQIFl8FEZnMxX2NbrLgRLLctgUCNLo4f8wAIPQZmTAYdwpOT04ABB1Btrl0D2WRwlsTJuZgm4DJJwikn0DUNOOS0exGPXwPXR1RiNZbcZcIAs9lzg3kSbGE52Qu1PnOqt4sut35AoGBALqwP4exyd4Klgn8x19xD5HYIEkjId4tQjcCUsnwQQ2ICpcjVdgv23HI8/2uq3HHefg0QAF9j1J3Wc9JjxmEDwtJCPaqd/EwzOeoltHXKX5MkL4T6UpdGPdKl6GfiiEe5PkwsiVYjTcjtePf6XU82vSknPKKuBYWoa7xDN5c5Mg7"
+}
+

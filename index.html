@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html>
+ <title>Test for Chrome Extension</title>
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="nodes/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="nodes/font-awesome/css/font-awesome.min.css">
+   
+   <link rel="stylesheet" href="styles.css">
+   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+   <link href="path/to/lightbox.css" rel="stylesheet" />
+ </head>
+
+ <body>
+   <div class="container">
+     <a id="helpButton" style="border-style:none; padding:0px 0px 0px 0px;z-index:1;">
+       <div class="circle" data-toggle="tooltip" title="Help">
+         ?
+       </div>
+     </a>
+     <div class="row">
+       <div class="col-12">
+         <img src="img/Rainbow_Logo_v1.png" alt="ExtrAction Logo - Rectangle Rectangle" id="logo">
+         <textarea id="myTextArea" name="myTextArea" rows="5" placeholder="Paste Email Text Here"></textarea>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="col-6" style="padding-right:2.5px;">
+         <a id="extractButton" class="extractButton">Extract from Text Box</a>
+       </div>
+       <div class="col-6" style="padding-left:2.5px;">
+         <a id="extractFromEmail" class="extractButton">Extract from Page</a>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-12">
+         <h3>Action Items</h3>
+       </div>
+     </div>
+
+     <div class="row" id="checklist">
+     </div>
+     <div class="row">
+       <div class="col-12 extraButtons">
+         <a id="add-item" class="fa fa-plus square extraButtons-body" data-toggle="tooltip" title="Add an item"></a>
+         <a id="copy-clipboard" class="fa fa-clipboard square extraButtons-body" data-toggle="tooltip" title="Copy to clipboard"></a>
+         <a id="clear-textbox" class="fa fa-eraser square extraButtons-body" data-toggle="tooltip" title="Clear text box"></a>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-12">
+         <input type="checkbox" name="tooltip-toggle" checked>
+         <label>Toggle Tooltip</label>
+       </div>
+     </div>
+   </div>
+ </body>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+ <script src="nodes/jquery/dist/jquery.slim.min.js"></script>
+ <script src="nodes/popper.js/dist/umd/popper.min.js"></script>
+ <script src="nodes/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="popup.js" defer></script>
+ <script type="text/javascript" src="test.js"></script>
+
+ </html>
