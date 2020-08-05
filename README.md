@@ -1,7 +1,7 @@
 # ExtrAction
 
 <p align="center">
-  <img src="https://github.com/rocassius/capstone/blob/master/chrome_extension/extension_bundle/img/Rainbow_Logo.png" width="350" title="preview">
+  <img src="https://https://github.com/percivalchen/Extraction/blob/master/img/Rainbow_Logo_v1.png" width="350" title="preview">
 </p>
 
 ## Project Summary
